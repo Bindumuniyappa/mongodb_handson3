@@ -2,7 +2,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const studentRouter = require("./routes/student");
 const connect=require("./database/mongoose")
-
 const app = express();
 
 app.use(bodyParser.json());
